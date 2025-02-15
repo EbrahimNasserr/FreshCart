@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { Usercontext } from '../../Context/UserContext'
-import Logo from '../../assets/maui3.png'
+import Logo from '../../assets/logo.png'
 import { CartContext } from '../../Context/CartContext';
 
 
@@ -26,7 +26,7 @@ export default function Navbar() {
   <nav className="flex items-center justify-between p-6 py-2 lg:px-8" aria-label="Global">
     <div className="flex me-5">
       <NavLink to={'/'} className="">
-        <img className="w-20" src={Logo} alt='maui logo' />
+        <img className="w-16" src={Logo} alt='maui logo' />
       </NavLink>
     </div>
     <div className="flex lg:hidden">

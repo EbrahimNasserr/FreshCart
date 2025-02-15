@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'; // Added useState
 import styles from './Register.module.css'; // Ensure your styles are imported
-import layerimg from '../../assets/image.gif'
+import layerimg from '../../assets/Pay Up Credit Card GIF by Ocean Park.gif'
 import { useFormik } from 'formik';
 import * as Yup from 'yup'
 import axios from 'axios';
